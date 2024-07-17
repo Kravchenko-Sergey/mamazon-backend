@@ -3,7 +3,7 @@ const router = new Router()
 const userRouter = require('./userRouter')
 const typeRouter = require('./typeRouter')
 const brandRouter = require('./brandRouter')
-const deviseRouter = require('./deviseRouter')
+const deviseRouter = require('./deviceRouter')
 
 router.use('/user', userRouter)
 router.use('/type', typeRouter)
